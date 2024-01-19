@@ -1,5 +1,5 @@
 // Autora: Blanca Mendez Lopez
-// Codigo empleado en la seccion 3.3.1 del TFG para realizar el primer experimento del nodo LoRa
+// Codigo para realizar el primer experimento del nodo LoRa: seccion 3.3.1 del TFG  
 
 // Importacion de librerias
 #include <MKRWAN.h>
