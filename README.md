@@ -109,6 +109,8 @@ Configuraciones del código 'df_client/board.h':
     #define BUTTON_IO_NUM         GPIO_NUM_4 
 
 
+#
+
 Para cargar y ejecutar [GitHub Espressif Cliente-Servidor Sensor][id4], se realizan emplean los mismos comandos que en el caso anterior, con la diferencia de que la ruta será donde se encuentren los paquetes de este programa, e.g. 'C:\Espressif\frameworks\esp-idf-v5.2\examples\bluetooth\esp_ble_mesh\sensor_models\'
 
 Configuraciones del código 'sensor_client/board.h':
