@@ -711,7 +711,6 @@ static void example_ble_mesh_generic_client_cb(esp_ble_mesh_generic_client_cb_ev
             node->onoff = param->status_cb.onoff_status.present_onoff;
             ESP_LOGI(TAG, "ESP_BLE_MESH_MODEL_OP_GEN_ONOFF_SET onoff: 0x%02x", node->onoff);
             node->onoff = !node->onoff;
-            ESP_LOGI(TAG, "Se apagan leds cliente -> l.704 main_client");
             //board_led_operation(0,0,0);
             board_led_operation(LED_R,LED_OFF);
             board_led_operation(LED_G,LED_OFF);
@@ -779,7 +778,6 @@ static void example_ble_mesh_custom_model_cb(esp_ble_mesh_model_cb_event_t event
     case ESP_BLE_MESH_CLIENT_MODEL_SEND_TIMEOUT_EVT:
         ESP_LOGI(TAG, "Client message 0x%06" PRIx32 " timeout", param->client_send_timeout.opcode);
         //ESP_LOGW(TAG, "Client message 0x%" PRIx32 " timeout", param->client_send_timeout.opcode);
-        ESP_LOGI(TAG, "FUNCIONA?");
         example_ble_mesh_start_example_configuration();
         break;
     default:
