@@ -2,18 +2,18 @@
 
 [id1]: https://github.com/blancamendez2803/TFG_Blanca_Mendez_Lopez "GitHub"
 [id2]: https://nubeusc-my.sharepoint.com/:f:/g/personal/blanca_mendez_rai_usc_es/EgN6YfbQlklHmgcyp4bPgzUBDJ4bfQ6rEn3yRjy1w4zukA?e=P5CcKI "OneDrive"
-[id3]: https://github.com/espressif/esp-idf/tree/b3f7e2c8a4d354df8ef8558ea7caddc07283a57b/examples/bluetooth/esp_ble_mesh/directed_forwarding "GitHub Espressif Expermiento Retransmision Dirigida"
+[id3]: https://github.com/espressif/esp-idf/tree/b3f7e2c8a4d354df8ef8558ea7caddc07283a57b/examples/bluetooth/esp_ble_mesh/directed_forwarding "GitHub Espressif Experimento Retransmision Dirigida"
 [id4]: https://github.com/espressif/esp-idf/tree/b3f7e2c8a4d354df8ef8558ea7caddc07283a57b/examples/bluetooth/esp_ble_mesh/sensor_models "GitHub Espressif Cliente-Servidor Sensor"
 [id5]: https://www.arduino.cc/en/software "Arduino-IDE"
 [id6]: https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/index.html "ESP-IDF"
 
 Los códigos empleados para realizar los experimentos del nodo LoRa y Wi-Fi se pueden descargar desde este repositorio de [GitHub][id1] o bien, desde [OneDrive][id2].
 
-Los códigos empleados para realizar el experimento de "Retransmision Dirigida" del nodo BLE, se puede descargar desde este repositorio de [GitHub Espressif Expermiento Retransmision Dirigida][id3]. Sin embargo, se deben sustituir los códigos que se encuentran en './df_client/main.c', './df_client/baoard.c', './df_client/baoard.h', './df_server/main.c', './df_server/board.c'por los que se encuentran en este repositorio de [GitHub][id1] y [OneDrive][id2] en las rutas './4_PROGRAMA_1/df_client/main.c', './4_PROGRAMA_1/df_client/board.c', './4_PROGRAMA_1/df_client/board.h', './4_PROGRAMA_1/df_server/main.c', './4_PROGRAMA_1/df_server/board.c', './4_PROGRAMA_1/df_server/board.h', respectivamente.
+Los códigos empleados para realizar el experimento de "Retransmision Dirigida" del nodo BLE, se pueden descargar desde este repositorio de [GitHub Espressif Experimento Retransmision Dirigida][id3]. Sin embargo, se deben sustituir los códigos que se encuentran en './df_client/main.c', './df_client/baoard.c', './df_client/baoard.h', './df_server/main.c', './df_server/board.c'por los que se encuentran en este repositorio de [GitHub][id1] y [OneDrive][id2] en las rutas './4_PROGRAMA_1/df_client/main.c', './4_PROGRAMA_1/df_client/board.c', './4_PROGRAMA_1/df_client/board.h', './4_PROGRAMA_1/df_server/main.c', './4_PROGRAMA_1/df_server/board.c', './4_PROGRAMA_1/df_server/board.h', respectivamente.
 
 Los códigos empleados para realizar el experimento de "Cliente - Servidor sensor" del nodo BLE, se puede descargar desde este repositorio de [GitHub Espressif Cliente-Servidor Sensor][id4].
 
-A continuación se dedica una sección para indicar cómo descargar los entornos que se emplean y otra, para explicar brevemente el contenido de cada carpeta que compone el proyecto.
+A continuación se dedica una sección para indicar cómo descargar los entornos que se emplean, y otra, para explicar brevemente el contenido de cada carpeta que compone el proyecto.
 
 # Entornos
 
