@@ -103,6 +103,16 @@ Este carpeta contiene los códigos por los que hay que sustituir los del [GitHub
 
 Una vez se hayan sustituido los códigos del [GitHub Espressif Expermiento Retransmision Dirigida][id3] por los que se encuentran en esta carpeta, se debe compilar el proyecto. Para ello, empleando el Simbolo de Sistema del entorno ESP-ID, nos colocamos en la ruta donde se encuentra el paquete de 'df_client', e.g. 'C:\Espressif\frameworks\esp-idf-v5.2>cd examples\bluetooth\esp_ble_mesh\directed_forwarding\df_client\' y se introduce por terminal el comando 'idf.py build' para compilarlo, seguidamente con el ESP32, que actuará de nodo cliente y conectado al ordenador a través del Micro USB, se carga el código con el comando 'idf.py -p PORT flash monitor', siendo PORT el puerto en el que está el ESP32 (e.g. COM11). Se realizan las mismas acciones para el paquete 'df_server' con los ESP32 que actuarán de nodos servidores.
 
+Configuraciones del código 'df_client/board.h':
+1. Configurar el pin al que está conectado el pulsador en la configuración del nodo, por defecto es: 
+
+    #define BUTTON_IO_NUM         GPIO_NUM_4 
+
 
 Para cargar y ejecutar [GitHub Espressif Cliente-Servidor Sensor][id4], se realizan emplean los mismos comandos que en el caso anterior, con la diferencia de que la ruta será donde se encuentren los paquetes de este programa, e.g. 'C:\Espressif\frameworks\esp-idf-v5.2\examples\bluetooth\esp_ble_mesh\sensor_models\'
+
+Configuraciones del código 'sensor_client/board.h':
+1. Configurar el pin al que está conectado el pulsador en la configuración del nodo, por defecto es: 
+
+    #define BUTTON_IO_NUM           4
 
