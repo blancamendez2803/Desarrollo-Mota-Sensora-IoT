@@ -18,7 +18,6 @@ float tempC;
 // Configuraciones del sensor SEN0308
 const int AirValue = 3200; // Valor de referencia del sensor en suelo seco
 const int WaterValue  = 0; // Valor de referencia del sensor en agua
-//int intervals = (AirValue - WaterValue) / 3; // para establecer 3 rango de lectura de humedad: muy humedo, humedo, seco
 int soilMoistureValue, humidity, humiditys = 0; 
 
 // Configuracion para la conexion a la red Wi-Fi
