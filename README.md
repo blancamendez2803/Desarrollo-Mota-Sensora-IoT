@@ -89,7 +89,7 @@ Tras realizar las conexiones del hardware especificadas en el TFG (sección 5.1.
 1. *OneWire* de Jim Studt
 2. *DallasTemperature* de Miles Burton
 3. *WiFi*, que ya se ha descargado anteriormente al insertar, en el menú de *ARDUINO IDE*, las línea mencionadas anteriormente.
-4. "esp_sleep", que ya se ha descargado anteriormente al insertar, en el menú de *ARDUINO IDE*, las línea mencionadas anteriormente.
+4. *esp_sleep*, que ya se ha descargado anteriormente al insertar, en el menú de *ARDUINO IDE*, las línea mencionadas anteriormente.
 5. *ThingSpeak* de MathWorks
 
 Configuraciones del código:
