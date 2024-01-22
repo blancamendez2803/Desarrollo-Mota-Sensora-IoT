@@ -14,8 +14,9 @@ En este repositorio se encuentran:
 
 Los códigos empleados para realizar el experimento de **Cliente - Servidor sensor** del nodo *BLE*, se pueden descargar desde el siguiente repositorio de [GitHub Espressif Experimento Cliente-Servidor Sensor][id4].
 
+A continuación se dedica una sección para indicar cómo descargar los entornos de trabajo que se emplean para ejecutar los códigos, y otra, para explicar brevemente el contenido de las carpetas que se encuentran en este repositorio.
 
-# Entornos
+# ENTORNOS DE TRABAJO
 
 ## Arduino IDE
 Para realizar los experimentos que se desarrollan en *Arduino IDE*, se debe descargar el entorno desde el siguiente enlace [Arduino IDE][id5], *versión 2.2.1*. Más adelante se explican las librerías que se deben descargar para ejecutar cada código.
